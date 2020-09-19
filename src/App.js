@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "./components/Header/Header";
-import classes from './App.module.css';
 import Slider from "./components/Slider/Slider";
 import Service from "./components/Services/Service";
 import Section from "./components/common/Section/Section";
@@ -12,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
-        <div className={classes.App}>
+        <div>
             <Header/>
                 <Slider/>
             <Section color={'#EBEBEB'}>
