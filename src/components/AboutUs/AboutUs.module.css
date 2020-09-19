@@ -1,0 +1,23 @@
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.mainText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 45%;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 49%;
+}

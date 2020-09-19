@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import classes from './App.module.css';
+import Slider from "./components/Slider/Slider";
+import Service from "./components/Services/Service";
+import Section from "./components/common/Section/Section";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Client from "./components/Clients/Clients";
+import Reviews from "./components/Reviews/Reviews";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={classes.App}>
+            <Header/>
+                <Slider/>
+            <Section color={'#EBEBEB'}>
+                <Service/>
+            </Section>
+            <Section color={'#fff'}>
+                <AboutUs/>
+            </Section>
+            <Section color={'#EBEBEB'}>
+                <Client />
+            </Section>
+            <Section color={'fff'}>
+                <Reviews />
+            </Section>
+                <Contacts />
+                <Footer />
+        </div>
+    );
 }
 
 export default App;

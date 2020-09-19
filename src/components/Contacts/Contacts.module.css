@@ -1,0 +1,140 @@
+.contacts {
+    background: url("image/Contacts.png");
+    height: 623px;
+    display: flex;
+}
+
+.inner {
+    width: 1100px;
+    margin: auto;
+}
+
+.inner button {
+    margin-top: 50px;
+    float: right;
+}
+
+
+.more {
+    width: 1100px;
+    height: 260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainInfo{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 25px;
+    width: 40%;
+    color: #ffffff;
+    display: grid;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.mainInfo h1 {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+}
+
+.companyContacts ul {
+    padding-left: 15px;
+    margin-bottom: -10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style-image: url("image/Contacts.svg");
+}
+
+.companyContacts span {
+    vertical-align: 6px;
+}
+
+.companyContacts li:last-child {
+    list-style-image: url("image/Mail.svg");
+}
+
+.inputContainer {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 540px;
+    display: grid;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.inputContainer input {
+    margin-top: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-weight: 100;
+    color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.inputContainer input:focus {
+    outline: none;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.names input {
+    width: 255px;
+}
+
+.names p {
+
+    flex-wrap: wrap;
+    margin: 0;
+    display: flex;
+}
+
+.message input{
+    width: 536px;
+}
+
+.contacts button {
+    width: 270px;
+    height: 60px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    right: 0;
+    background-color: #005FA3;
+    outline: none;
+}
+
+.contacts button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity .22s ease-in-out;
+}
+
+.contacts button:active {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity .22s ease-in-out;
+}
+
+

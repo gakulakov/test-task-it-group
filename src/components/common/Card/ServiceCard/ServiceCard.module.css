@@ -1,0 +1,37 @@
+.card {
+    width: 350px;
+    height: 360px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.card:hover {
+    cursor: pointer;
+
+}
+
+.image {
+    width: 350px;
+    height: 360px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+    color: white;
+}
+
+.image:hover {
+    opacity: 0.4;
+    transition: opacity .35s ease-in-out;
+}
+
+.backBoard {
+    height: 100%;
+    background: #005FA3;
+}

@@ -1,0 +1,49 @@
+.reviews {
+
+}
+
+.commentContainer {
+    background: #EBEBEB;
+    margin-bottom: 50px;
+}
+
+.commentValue {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    padding: 45px 95px 45px 95px;
+}
+
+.userData {
+    padding: 0 95px 45px 95px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.userData img {
+    width: 80px;
+    height: 80px;
+    padding-right: 30px;
+}
+
+.userWork {
+    margin-top: 0;
+}
+
+.userName {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+}

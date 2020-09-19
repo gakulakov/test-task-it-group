@@ -1,0 +1,56 @@
+.slider {
+    background: url("images/SliderImage.png");
+    height: 670px;
+}
+
+.innerContent {
+    width: 1100px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.sliderValue{
+    width: 589px;
+}
+
+.label{
+    color: #fff;
+    font-family: Merriweather, sans-serif;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+}
+
+.sliderValue button {
+    background: #005FA3;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    border: none;
+    width: 270px;
+    height: 60px;
+    color: #ffffff;
+}
+
+.sliderValue button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity .22s ease-in-out;
+}
+
+.sliderValue button:active {
+    opacity: 0.4;
+    transition: opacity .22s ease-in-out;
+}
+
+.sliderValue button:focus {
+    outline: none;
+}
+
+
+
+

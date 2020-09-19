@@ -1,0 +1,9 @@
+.titleFont {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #333333;
+}

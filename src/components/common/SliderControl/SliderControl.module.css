@@ -1,0 +1,73 @@
+.sliderControl {
+
+}
+
+
+.pages ul {
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.pages ul li{
+    margin-right: 40px;
+    opacity: 0.6;
+}
+
+
+.leftButton, .rightButton {
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    z-index: 90;
+}
+
+.navElements {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.navButtons {
+    display: inherit;
+}
+
+.leftButton:hover, .rightButton:hover {
+    opacity: 0.9;
+    transition: opacity .3s ease-in;
+    cursor: pointer;
+}
+
+.leftButton:active, .rightButton:active {
+    opacity: 0.4;
+    transition: opacity .15s ease-in-out;
+}
+
+.leftButton img, .rightButton img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonColorBlue {
+    background: #005FA3;
+    opacity: 1;
+}
+
+.dotsColorBlue {
+    color: #005FA3;
+}
+
+.dotsColorGray {
+    color: #a9a9a9;
+}
+
+
+
+.buttonColorGray {
+    background: #a9a9a9;
+}
